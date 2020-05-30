@@ -1,0 +1,148 @@
+/*General*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	background-color: #FFDF84;
+	margin:0;
+}
+
+body{
+	margin:0;
+}
+
+
+h1, h2, h3, h4, a{
+	font-family: 'Roboto Slab', serif;
+	margin-left: 8%;
+}
+
+h1{
+	color: #FFF;
+	text-align: center;
+	margin-top: 0;
+	text-shadow: 2px 2px 1px black;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+a:link, a:visited{
+	color: white;
+}
+
+a:hover{
+	background-color: #DBBE6F;
+}
+
+h2{
+	margin-top: 1rem;
+}
+
+h3{
+	margin-top: 3rem;
+
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.08rem;
+	line-height: 1.65rem;
+	margin-left: 8%;
+	margin-right: 2%;
+}
+
+img {
+ 	width: 100%;
+}
+/*Header*/
+
+header{
+	background-color: #342D1A;
+	width: 100%;
+}
+
+
+/*Menu*/
+
+nav{
+	background-color: #BAA15F;
+	/*margin-bottom: 200px;*/
+}
+
+.menu{
+	margin-bottom: 600px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+}
+nav p{
+	text-align: center;
+	line-height: 0.8rem;
+	margin: 0;
+}
+
+nav a{
+	padding: 0.05rem 0.2rem;
+	line-height: 0.8rem;
+	font-size: 0.9rem;
+	font-weight: 700;
+	margin:0.1rem auto;
+	display: inline-block;
+	background-color: #CAAF66;
+	letter-spacing: 0.1rem;
+}
+
+/*Menu lat Sec 01*/
+
+.MenuSec1{
+	width: 92%;
+	margin-left: 8%;
+	overflow-x: scroll;
+}
+
+.MenuS1box{
+	width: 600%;
+	height: calc(2*65vw);
+}
+
+.ItSec1{
+	width: 65vw;
+	display: inline-block;
+	background-color:  #FFDF84;
+	margin: 0.2rem;
+}
+
+/*.ItSec1 img{
+	width: 50%;	
+}*/
+
+/*Return button*/
+
+.retBtn{
+	background-color: rgba(255, 223, 132, 0.75);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0 0.4rem;
+}
+
+.retBtn a{
+	padding: 0 0.4rem;
+}
+
+/*footer*/
+footer{
+	margin-left: 8%;
+	margin-top: 150px;
+	background-color: rgba(0, 0, 0, 0.15);
+}
