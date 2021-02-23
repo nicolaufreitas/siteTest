@@ -1,0 +1,81 @@
+
+*{
+	margin:0;
+}
+
+:root{
+--tileColor: #6A83E1;
+--tilW:60px;
+--tileMask:url("img/ArabianPaths.png");
+}
+
+#tiledisplay{
+	margin:auto;
+	display: grid;
+	grid-template-columns: 60px 60px 60px 60px;
+	background:#E1CF6A;
+	width: 240px;
+}
+
+svg{
+	/*width:80px;
+	height: 80px;*/
+	fill:var(--tileColor);
+}
+
+h1{
+	color: blue;
+}
+
+.tile{
+	width:var(--tilW);
+	height:var(--tilW);
+	background:var(--tileColor);
+	mask-image:url("img/ArabianPaths.png");
+}
+
+.test{
+	height: 60px;
+	width: 60px;
+	background-color: blue;
+}
+/*
+.tile01{
+	transform: rotate(45deg);
+}*/
+
+.c0{
+	transform: rotate(0deg);
+}
+
+.c90{
+	transform: rotate(90deg);
+}
+
+.c180{
+	transform: rotate(180deg);
+}
+
+.c270{
+	transform: rotate(270deg);
+}
+
+img{
+	width: 400px;
+	mask-image:url("mk.png");
+	-webkit-mask-image:url("mk.png");
+	-webkit-mask-size:cover;
+	-webkit-mask-position:cover;
+	mask-position:cover;
+	mask-size:cover;
+}
+
+.tt{
+	width: 60px;
+	height: 60px;
+	background:blue;
+	/*-webkit-mask-image:url(img/mk.png);
+	mask-image:url(img/mk.png);*/
+	mask-position:cover;
+	mask-size:cover;
+}
